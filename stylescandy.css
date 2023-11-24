@@ -1,0 +1,69 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #ffcc00;
+    padding: 20px;
+}
+
+header h1 {
+    color: #333;
+    margin: 0;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.facts h2,
+.nutritional-info h2 {
+    color: #ff6600;
+}
+
+.facts ul,
+.nutritional-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.facts ul li,
+.nutritional-info ul li {
+    margin-bottom: 10px;
+}
+
+.footer-content {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #cc5500;
+}
